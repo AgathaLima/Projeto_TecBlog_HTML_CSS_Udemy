@@ -28,17 +28,68 @@ body {
 a {
     text-decoration: none;
 }
+
+
 a:link, a:visited {
+    color: #f7b600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+#cabeçalho a:link, #cabeçalho a:visited {
 color: #fff;
 padding: 8px 12px;
 }
 
-a:hover {
+#cabeçalho a:hover {
     color: #f7b600;
+    background-color: white;
+    text-decoration: none;
+}
+
+/* **** Área principal **** */
+
+#area_principal {
+    width: 920px;
+    margin: 0px auto;
+    padding: 20px;
+
+}
+
+#area_postagens {
+
+width: 660px;
+float: left;
+}
+
+#area_lateral {
+
+width: 240px;
+float: right;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+}
+
+.postagem {
+    padding: 10px;
+    margin-bottom: 20px;
     background-color: white;
 }
 
-
+.conteudo_lateral {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
 /* 
 **** Formatação em geral ****
 */
@@ -48,7 +99,32 @@ h1 {
     font-size: 2.5em;
 }
 
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+}
+
 .branco {
     color: white;
 }
 
+.data_postagem {
+    font-size: 0,8em;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.postagem_lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    text-align: center;
+    
+
+}
